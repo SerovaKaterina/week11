@@ -32,16 +32,25 @@ h1 {
 .shop__cart_product {
   width: 300px;
 }
-.shop__cart_info {
+.shop__cart_info1,
+.shop__cart_info2,
+.shop__cart_info3,
+.shop__cart_info4 {
   text-align: center;
 }
-.shop__cart_info,
+.shop__cart_info1,
+.shop__cart_info2,
+.shop__cart_info3,
+.shop__cart_info4,
 .titles__info {
   font-size: 20px;
   font-weight: bolder;
 }
 .shop__cart_product,
-.shop__cart_info {
+.shop__cart_info1,
+.shop__cart_info2,
+.shop__cart_info3,
+.shop__cart_info4 {
   padding-top: 40px;
 }
 .discount {
@@ -57,8 +66,12 @@ h1 {
   height: 70px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: rgb(9, 9, 9);
+  background: rgb(9, 9, 9);
   color: white;
   font-size: 16px;
   font-weight: bolder;
+}
+.discount__btn:hover {
+  background: white;
+  color: black;
 }

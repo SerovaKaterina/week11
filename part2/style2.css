@@ -1,0 +1,24 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+h1 {
+  padding-left: 90px;
+  padding-bottom: 20px;
+}
+#container__input1,
+#container__input2 {
+  height: 30px;
+  border: 2px solid black;
+}
+#container__btn {
+  height: 30px;
+  background: rgb(211, 224, 247);
+  font-size: medium;
+  font-weight: bolder;
+  border: 2px solid black;
+}
+#container__btn:hover {
+  background: wheat;
+}
